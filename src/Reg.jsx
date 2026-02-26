@@ -14,7 +14,7 @@ function Reg() {
 
     const submit = async () => {
         try {
-            const res = await axios.post("https://springboot-backend-1-9jvz.onrender.com/reg", data);
+            const res = await axios.post(https://springboot-backend-vz5c.onrender.com/reg", data);
             alert(res.data);
         } catch (xyz) {
             alert(xyz.response?.data || "Error occurred");
